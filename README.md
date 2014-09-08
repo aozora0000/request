@@ -1,5 +1,7 @@
 # HTTP GET/POST Method Wrapper
 
+[![Build Status](https://travis-ci.org/aozora0000/request.svg?branch=master)](https://travis-ci.org/aozora0000/request)
+
 get HTTPMethod Wrapper With Validate System
 
 ## How To Install (Use Composer)
