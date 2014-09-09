@@ -30,6 +30,11 @@
             return $this->_execute("postRequest",$paramName,$validateNeedle);
         }
 
+        /**
+         * @param string $methodName
+         * @param string|null $paramName
+         * @param callable $validateNeedle
+         */
         protected function _execute($methodName,$paramName,$validateNeedle = null) {
             $validate = new Validate;
             // EmptyRequest
