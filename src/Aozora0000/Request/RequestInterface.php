@@ -7,6 +7,9 @@
          *  @param array $option
          *  @param array $input (TestOnly!)
          */
+        /**
+         * @return void
+         */
         public function __construct(Array $option = array(),Array $input = array());
 
         /*
