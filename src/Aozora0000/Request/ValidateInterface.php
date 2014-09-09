@@ -17,7 +17,7 @@
          *  @throw \Exception
          */
         /**
-         * @param  $callback
+         * @param   $callback
          */
         public function execute($target,$callback = NULL);
     }
