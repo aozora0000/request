@@ -22,7 +22,7 @@
         /*
          *  Get Request Method From $_GET method
          *  @param string $paramName
-         *  @param string $validateNeedle
+         *  @param string|array $validateNeedle
          *  @return Array|Object
          *  @throw Exception
          */
@@ -31,7 +31,7 @@
         /*
          *  get Request Method From $_POST method
          *  @param string $paramName
-         *  @param string $validateNeedle
+         *  @param string|array $validateNeedle
          *  @return Array|Object
          *  @throw Exception
          */
