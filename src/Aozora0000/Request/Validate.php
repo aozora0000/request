@@ -1,13 +1,16 @@
 <?php
     namespace Aozora0000\Request;
-
-    //use Request\Request\ValidateInterface;
-
     class Validate implements ValidateInterface {
 
-        /** @var string */
+        /**
+         * @var string
+         */
+         
         protected $needle;
-        /** @var callable */
+
+        /**
+         * @var callable
+         */
         protected $callback;
 
 
