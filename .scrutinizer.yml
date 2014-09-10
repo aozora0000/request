@@ -37,13 +37,6 @@ tools:
             paths: {  }
         path_configs: {  }
     external_code_coverage:
-        enabled: true
-        timeout: 300
-        runs: 1
-        filter:
-            excluded_paths:
-                - 'tests/*'
-            paths: {  }
     php_changetracking:
         enabled: true
         bug_patterns:
